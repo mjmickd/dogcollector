@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import ListView, DetailView
-from .models import Cat, Toy
+from .models import Dog, Toy
 from .forms import FeedingForm
 
 # Create your views here.
